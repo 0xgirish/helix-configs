@@ -4,7 +4,7 @@
 "comment"            = "green"
 "documentation"      = "yellow"
 "error"              = {fg ="red"}
-"special"            = {fg ="meta", modifiers =["bold"]}
+"special"            = {fg ="green", modifiers =["bold", "underlined"]}
 "keyword"            = "yellow"
 "keyword.storage.modifier" = "white"
 "operator"           = "yellow"
@@ -16,7 +16,8 @@
 "ui.background" = {bg="black"}
 "ui.text" = "white"
 "ui.text.focus" = {fg="black", modifiers=["bold"]}
-"ui.text.info" = "green"
+"ui.text.info" = {fg="white", bg="black", modifiers = ["bold"]}
+"ui.text.inactive" = {fg="white", bg="black"}
 
 
 "ui.cursor"             = {fg="black", bg="white"}
@@ -27,7 +28,7 @@
 "ui.highlight"           = {bg="menu"}
 "ui.selection"           = {bg="selected", fg="white"}
 "ui.statusline"          = {bg="grey", fg="white"}
-"ui.statusline.inactive" = {bg="menu", fg="black"}
+"ui.statusline.inactive" = {bg="grey", fg="white", modifiers=["dim"]}
 "ui.statusline.insert"   = {bg="menu", fg="green"}
 "ui.statusline.normal"   = {bg="menu", fg="white"}
 "ui.statusline.select"   = {bg="menu", fg="selected"}
@@ -36,7 +37,7 @@
 "ui.help"                = {bg="menu", fg="white"}
 "ui.window"              = {fg="white"}
 "ui.menu"                = {fg="white", bg="menu"}
-"ui.menu.selected"       = {fg="white", modifiers=["bold", "underlined"]}
+"ui.menu.selected"       = {fg="green", bg="menu", modifiers=["bold", "underlined"]}
 
 
 "diagnostic.error" = {fg="red", modifiers=["underlined"]}
@@ -53,6 +54,7 @@ yellow        = "#efdc82"
 green         = "#7ccd7c"
 red           = "#c81a03"
 grey          = "#0c0c0c"
+dim_grey      = "#1c1c1c"
 menu          = "#323232"
 warning       = "#c7c500"
 value         = "#fa8072"
