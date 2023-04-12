@@ -1,0 +1,39 @@
+# At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
+# theme = "acme_custom"
+theme = "desertx"
+
+[keys.normal]
+tab = "rotate_view" # Maps the Control-s to the typable command :w which is an alias for :write (save file)
+"#" = "toggle_comments"
+C-l = "select_next_sibling"
+C-h = "select_prev_sibling"
+C-k = "expand_selection"
+C-j = "shrink_selection"
+
+[editor]
+gutters = ["diff","diagnostics"]
+# rulers = [120]
+shell = ["zsh", "-c"]
+color-modes = true
+cursorline = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "block"
+
+[editor.file-picker]
+git-ignore = false
+
+[editor.statusline]
+left = ["mode", "spinner", "spacer", "diagnostics"]
+center = ["file-name", "file-modification-indicator"]
+right = ["version-control", "spacer","separator", "workspace-diagnostics","separator", "spacer", "position", "file-type"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1

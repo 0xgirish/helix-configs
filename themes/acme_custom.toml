@@ -1,0 +1,49 @@
+# Author: Two-Six<twopsix@duck.com>
+
+"string" = "black"
+"comment" = "green"
+"error" = "nasty_red"
+"special" = {fg="green", modifiers=["bold"]}
+
+"ui.background" = {bg="acme_bg"}
+"ui.text" = "black"
+"ui.text.focus" = {fg="black", modifiers=["bold"]}
+
+"ui.cursor.match" = {bg="acme_bar_bg"}
+"ui.cursor" = {bg="cursor", fg="white"}
+"ui.cursor.insert" = {fg="cursor", bg="dark_and_light"}
+"ui.cursor.primary" = {fg="black", bg="dark_and_light"}
+"ui.cursorline.primary" = {bg="cursorline"}
+
+"ui.selection" = {bg="selected"}
+"ui.statusline" = {bg="acme_bar_bg", fg="black"}
+"ui.statusline.inactive" = {bg="acme_bar_inactive", fg="black"}
+"ui.virtual" = "indent"
+"ui.popup" = {bg="acme_bg_heavy"}
+"ui.help" = {bg="acme_bg_heavy", fg="black"}
+"ui.window" = {fg="black"}
+"ui.menu" = {fg="black", bg="acme_bg_heavy"}
+"ui.menu.selected" = {fg="black", modifiers=["bold", "underlined"]}
+
+"diagnostic.error" = {bg="white", modifiers=["underlined", "bold"]}
+"diagnostic.warning" = {bg="white", modifiers=["underlined", "bold"]}
+"diagnostic.hint" = {bg="white", modifiers=["underlined", "bold"]}
+
+[palette]
+white = "#ffffff"
+acme_bg = "#ffffea"
+# acme_bg = "#f1f0ff"
+acme_bg_heavy = "#ebefdd"
+black = "#000000"
+selected = "#eeee9e"
+acme_bar_bg = "#def3f8"
+acme_bar_inactive = "#f0fbff"
+cursor = "#444444"
+red = "#a0342f"
+green = "#065905"
+indent = "#aaaaaa"
+diagnostic = "#3a25c2"
+nasty_red = "#ca4754"
+dark_red = "#7e2a33"
+dark_and_light = "#a8a8a8"
+cursorline = "#e1e5d4"

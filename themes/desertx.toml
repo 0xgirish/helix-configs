@@ -1,0 +1,69 @@
+# Author: Girsih Kumar
+
+"string"             = "string"
+"comment"            = "green"
+"documentation"      = "yellow"
+"error"              = {fg ="red"}
+"special"            = {fg ="meta", modifiers =["bold"]}
+"keyword"            = "yellow"
+"keyword.storage.modifier" = "white"
+"operator"           = "yellow"
+"punctuation"        = "white"
+"constant.numeric"   = "string" 
+"constant.builtin"   = "string" 
+"constant.character" = "string"
+
+"ui.background" = {bg="black"}
+"ui.text" = "white"
+"ui.text.focus" = {fg="black", modifiers=["bold"]}
+"ui.text.info" = "green"
+
+
+"ui.cursor"             = {fg="black", bg="white"}
+"ui.cursor.insert"      = {fg="black", bg="yellow"}
+"ui.cursor.primary"     = {fg="black", bg="white"}
+"ui.cursor.select"      = {fg="white", bg="selected"}
+
+"ui.highlight"           = {bg="menu"}
+"ui.selection"           = {bg="selected", fg="white"}
+"ui.statusline"          = {bg="grey", fg="white"}
+"ui.statusline.inactive" = {bg="menu", fg="black"}
+"ui.statusline.insert"   = {bg="menu", fg="green"}
+"ui.statusline.normal"   = {bg="menu", fg="white"}
+"ui.statusline.select"   = {bg="menu", fg="selected"}
+"ui.virtual"             = "indent"
+"ui.popup"               = {bg="menu", fg="white"}
+"ui.help"                = {bg="menu", fg="white"}
+"ui.window"              = {fg="white"}
+"ui.menu"                = {fg="white", bg="menu"}
+"ui.menu.selected"       = {fg="white", modifiers=["bold", "underlined"]}
+
+
+"diagnostic.error" = {fg="red", modifiers=["underlined"]}
+"diagnostic.warning" = {fg="warning", modifiers=["underlined"]}
+"diagnostic.hint" = {bg="red", modifiers=["underlined"]}
+
+"diff.plus" = {fg="green"}
+"diff.minus" = {fg="red"}
+"diff.delta" = {fg="white"}
+
+[palette]
+white         = "#c7c7c7"
+yellow        = "#efdc82"
+green         = "#7ccd7c"
+red           = "#c81a03"
+grey          = "#0c0c0c"
+menu          = "#323232"
+warning       = "#c7c500"
+value         = "#fa8072"
+type          = "#efdc82"
+identifier    = "#87ceeb"
+string        = "#fa8072"
+keyword       = "#eedc82"
+operator      = "#87ceeb"
+attribute     = "#eedc82"
+comment       = "#7ccd7c" # use italic
+documentation = "#7ccd7c" # use italic
+meta          = "#ee799f"
+cursor        = "#c7c7c7"
+selected      = "#0325c7" # with white foreground
